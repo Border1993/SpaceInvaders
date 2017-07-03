@@ -30,12 +30,10 @@ namespace SpaceInvaders
                     newEnemy.SetPosition(x, y);
                     enemies.Add(newEnemy);
                 }
-                catch(Exception ex)
+                catch(Exception)
                 {
                     Console.WriteLine("Something went wrong with setting enemies position.");
                 }
-
-                
             }
         }
 
@@ -92,8 +90,6 @@ namespace SpaceInvaders
             }
 
             //sprzatamy smieci
-            List<Enemy> newEnemies = new List<Enemy>();
-
             for(int i = 0; i < enemies.Count; i++)
             {
                 if (enemies[i].IsDead()) 
