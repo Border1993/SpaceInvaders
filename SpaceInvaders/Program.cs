@@ -22,7 +22,7 @@ namespace SpaceInvaders
 
                 //wzor zeby potworki na poczatku ukladaly sie w 'szachownice'
                 float x = (i*3) % 80;
-                float y = (i*3 / 80)*2 + 1; // gorny rzadek zarezerwowany na bonus - ufo
+                float y = (i*3 / 80)*2 + 1; // gorny rządek zarezerwowany na bonus - ufo
 
 
                 try
