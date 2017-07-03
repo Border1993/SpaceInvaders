@@ -155,7 +155,7 @@ namespace SpaceInvaders
 
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Game has started!");
+            Console.WriteLine("Game has started!");
 
             Blackboard screen = new Blackboard();
             Player player = new Player();
